@@ -1,10 +1,10 @@
 class Television:
+    MIN_VOLUME = 0
+    MAX_VOLUME = 2
+    MIN_CHANNEL = 0
+    MAX_CHANNEL = 3
+    
     def __init__(self):
-        self.MIN_VOLUME = 0
-        self.MAX_VOLUME = 2
-        self.MIN_CHANNEL = 0
-        self.MAX_CHANNEL = 3
-
         self.__status = False #power
         self.__muted = False
         self.__volume = 0
